@@ -1,0 +1,51 @@
+/* 
+selector can be an HTML element, it can be a custom style (start with .), or it can be an id (start with #)
+
+selector{
+    property1: value;
+    property2: value;
+}
+*/
+
+/* body applies to the whole image */
+body{
+    background-color:ghostwhite;
+    color:midnightblue;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+/* by default - create a box for the menu */
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+/* add some footer styles */
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage{
+    margin-right: 200px;
+    width: 300px;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+}
+
+/* custom css style */
+.leftalign{
+    text-align: left;
+}
