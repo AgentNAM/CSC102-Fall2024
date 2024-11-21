@@ -52,3 +52,15 @@ p{
 .leftalign{
     text-align: left;
 }
+
+button{
+    background-color:midnightblue;
+    color: ghostwhite;
+    border-radius: 12.5%;
+}
+
+button:hover{
+    background-color:ghostwhite;
+    color: midnightblue;
+    border-radius: 12.5%;
+}
