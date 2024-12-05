@@ -1,0 +1,11 @@
+/* body applies to the whole image */
+body {
+    background-color: moccasin;
+    color: firebrick;
+    width: 90%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+input, button {
+    border-radius: 5px;
+}

@@ -1,0 +1,27 @@
+<!-- Necolai McIntosh 12/5/2024 -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W11 Array Example</title>
+    <link rel="stylesheet" href="pizzachef_styles.css">
+</head>
+<body>
+    <h1>Pizza Chef Array Example</h1>
+
+    <p>Total Pizzas Baked: <span id="spnTotalPizzas">0</span></p>
+    
+    <p>Baking Level: <span id="spnLevel">Beginner Chef</span></p>
+
+    <label for="numPizzas">New Pizzas Baked:</label>
+    <input type="number" id="numPizzas" name="numPizzas" min="0" max="1000" value="0">
+
+    <button onclick="updateChefStats();">Update Stats</button>
+
+    <p>Toppings: <span id="spnToppings"></span></p>
+
+    <!-- JavaScript code goes between the script tags -->
+    <script src="pizzachef_script.js"></script>
+</body>
+</html>
