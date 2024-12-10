@@ -1,0 +1,46 @@
+body{
+    background-color: aliceblue;
+    width: 90%;
+}
+
+header{
+    text-align: center;
+}
+
+/* by default - create a box for the menu */
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+table{
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: navy;
+    color: whitesmoke;
+    text-align: left;
+}
+
+td, th{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+tr{
+    background-color: deepskyblue;
+}
+
+tr:nth-child(even){
+    background-color: lightskyblue;
+}
+
+tr:hover{
+    background-color: azure;
+}
