@@ -1,13 +1,18 @@
+/*
 body{
     background-color: aliceblue;
     width: 90%;
 }
+*/
 
+/*
 header{
     text-align: center;
 }
+*/
 
 /* by default - create a box for the menu */
+/*
 nav{
     height: 600px;
     width: 200px;
@@ -15,6 +20,7 @@ nav{
     padding: 5px;
     line-height: 30px;
 }
+*/
 
 table{
     width: 70%;

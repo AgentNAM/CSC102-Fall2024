@@ -19,12 +19,45 @@ header{
 }
 
 /* by default - create a box for the menu */
+/*
 nav{
     height: 600px;
     width: 200px;
     float: left;
     padding: 5px;
     line-height: 30px;
+}
+*/
+
+/* this CSS will only apply to unordered lists in a nav section */
+nav ul{
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+/* these styles only apply to listitems in an unordered list in a nav */
+nav ul li{
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline;
+}
+
+/* style the links on the menu so they look better */
+nav ul li a{
+    text-decoration: none;
+    color: ghostwhite;
+    font-size: 18px;
+    padding: 10px 20px; /* shorthand for 10px top & bottom; 20px left & right */
+    border-radius: 5px;
+    border: solid;
+    background-color: midnightblue;
+    display: inline;
+}
+
+nav ul li a:hover{
+    background-color: ghostwhite;
+    color: midnightblue;
 }
 
 /* add some footer styles */
@@ -35,8 +68,8 @@ footer{
 
 #memeImage{
     position: absolute; /* this will allow us to move the image around */
-    left: 100px; /* optional */
-    top: 100px; /* optional */
+    left: 400px; /* optional */
+    top: 300px; /* optional */
     margin-right: 200px;
     width: 300px;
     border-style: solid;
